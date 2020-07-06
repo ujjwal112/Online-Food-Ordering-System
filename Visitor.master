@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Visitor.master.cs" Inherits="Visitor" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 275px;
+        }
+
+        .auto-style2 {
+            width: 798px;
+        }
+
+        .auto-style3 {
+            width: 100%;
+            height: 47px;
+        }
+
+        .auto-style4 {
+            height: 18px;
+        }
+
+        .auto-style5 {
+            width: 100%;
+            margin-bottom: 3px;
+        }
+
+        .auto-style6 {
+            width: 23px;
+        }
+
+        .auto-style8 {
+            width: 461px;
+        }
+
+        #form1 {
+            height: 555px;
+            margin-bottom: 0px;
+        }
+
+        .auto-style10 {
+            width: 100%;
+        }
+
+        .auto-style12 {
+            width: 470px;
+        }
+
+        .auto-style13 {
+            width: 163px;
+        }
+
+        .auto-style14 {
+            width: 321px;
+        }
+
+        .auto-style16 {
+            width: 28px;
+            height: 19px;
+        }
+
+        .auto-style17 {
+            width: 1219px;
+            height: 19px;
+        }
+
+        .auto-style18 {
+            height: 19px;
+        }
+
+        .auto-style19 {
+            width: 24px;
+            height: 19px;
+        }
+
+        .auto-style20 {
+            width: 25px;
+            height: 19px;
+        }
+    </style>
+</head>
+<body style="height: 552px">
+    <form id="form1" runat="server">
+    <div style="height: 551px">
+        
+        <table class="auto-style1">
+            <tr>
+                <td style="background-position: center -100px; background-image: url('PICS/5e70712edcf4a644a4d7ab2788492209.gif')">&nbsp;</td>
+                <td class="auto-style2" style="background-image: url('PICS/BANER/50596f422a263f0.jpg'); background-position: inherit; text-align: center; font-family: &quot;Arial Black&quot;; font-size: xx-large; color: #00CC99; text-decoration: underline overline;"><a href="Default.aspx" style="font-family: 'Arial Black'; font-size: xx-large; color: #00CC99; text-align: center; background-image: none; font-weight: bold;">AhaarINN</a></td>
+                <td style="background-position: center -30px; background-image: url('PICS/my-f-opinion-uber-eats-new-logo-redesign-brand-refresh-design-launcher-app.gif')">&nbsp;</td>
+            </tr>
+        </table>
+        <table class="auto-style3">
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style3">
+            <tr>
+                <td class="auto-style4" style="font-family: 'Arial Black'; font-size: xx-large; color: #FFFFFF; background-color: #000000; background-position: inherit; text-align: justify; text-decoration: none;"><a href="Default.aspx" style="font-family: 'Arial Black'; font-size: xx-large; text-decoration: none; color: #FFFFFF; background-color: #000000">AhaarINN</a></td>
+            </tr>
+        </table>
+        <table class="auto-style5" style="background-color: #000000; height: 0px;">
+            <tr>
+                <td class="auto-style6" style="background-position: center 1px; background-color: #000000; background-image: url('/PICS/images.png')"></td>
+                <td class="auto-style8" style="background-color: #000000; text-align: justify;">
+                    <asp:DropDownList ID="DropDownList1" runat="server" Height="18px" Width="174px">
+                        <asp:ListItem Selected="True" Value="ENGLISH"></asp:ListItem>
+                        <asp:ListItem>HINDI</asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+                <td class="auto-style12" style="font-family: 'Arial Black'; font-size: large; color: #FFFFFF; background-color: #000000"><a href="AboutAhaarINN.aspx" style="text-decoration: none; color: #FFFFFF">About AhaarINN</a></td>
+                <td style="font-family: 'Arial Black'; font-size: large; color: #FFFFFF; background-color: #000000"><a href="Cities.aspx" style="text-decoration: none; color: #FFFFFF">See All Cities</a></td>
+            </tr>
+        </table>
+        <table class="auto-style10" style="background-color: #000000">
+            <tr>
+                <td class="auto-style14" style="background-color: #000000; font-size: small; font-family: 'Arial Black'; color: #FFFFFF; text-align: center"><a href="Privacy.aspx" style="text-decoration: none; color: #FFFFFF">Privacy</a></td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style12" ><a href="UserType.aspx" style="font-family: 'Arial Black'; font-size: small; color: #FFFFFF; background-color: #000000; text-decoration: none;">Become a Delivery Partner</a></td>
+                <td style="background-color: #000000; font-family: 'Arial Black'; font-size: small; color: #FFFFFF"><a href="ContactUs.aspx" style="text-decoration: none; color: #FFFFFF">Customer Support</a></td>
+            </tr>
+            <tr>
+                <td class="auto-style14" style="background-color: #000000; font-size: small; font-family: 'Arial Black'; color: #FFFFFF; text-align: center"><a href="Terms.aspx" style="text-decoration: none; color: #FFFFFF">Terms</a></td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style12"><a href="UserType.aspx" style="background-color: #000000; font-family: 'Arial Black'; font-size: small; color: #FFFFFF; text-decoration: none;">Become a Restaurant Partner</a></td>
+                <td style="background-color: #000000; font-family: 'Arial Black'; font-size: small; color: #FFFFFF"><a href="ViewFeedBack.aspx?UT=Visitor" style="text-decoration: none; color: #FFFFFF">Feedback</a></td>
+            </tr>
+            <tr>
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td style="background-color: #000000; font-family: 'Arial Black'; font-size: small; color: #FFFFFF"><a href="FAQ.aspx" style="text-decoration: none; color: #FFFFFF">FAQs</a></td>
+            </tr>
+            <tr>
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td style="background-color: #000000; font-family: 'Arial Black'; font-size: small; color: #FFFFFF"><a href="Blog.aspx" style="text-decoration: none; color: #FFFFFF">Blog</a></td>
+            </tr>
+        </table>
+        <table class="auto-style10" style="background-color: #000000; height: 31px;">
+            <tr>
+                <td class="auto-style17" style="background-color: #000000"></td>
+                <td class="auto-style16" style="background-position: center 0px; background-color: #000000; background-image: url('PICS/ff.jpg');">&nbsp;</td>
+                <td class="auto-style19" style="background-position: center 0px; background-color: #000000; background-image: url('PICS/tt.png');"></td>
+                <td class="auto-style20" style="background-position: center 0px; background-color: #000000; background-image: url('PICS/ii.png');"></td>
+                <td class="auto-style18" style="background-position: center 0px; background-color: #000000; background-image: none;"></td>
+            </tr>
+        </table>
+        <table class="auto-style10" style="background-color: #000000">
+            <tr>
+                <td style="background-color: #000000; text-align: center; font-family: 'Arial Black'; font-size: x-small; color: #FFFFFF">© 2019 AhaarINN Technologies Inc.</td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>

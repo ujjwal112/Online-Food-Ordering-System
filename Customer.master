@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Customer.master.cs" Inherits="Customer" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 268px;
+        }
+         .auto-style2 {
+            width: 100%;
+        }
+        
+          .auto-style14 {
+            width: 231px;
+        }
+        .auto-style15
+        {
+            width: 29%;
+        }
+        .auto-style16 {
+            width: 186px;
+        }
+        .auto-style17 {
+            width: 905px;
+        }
+    </style>
+</head>
+<body style="height: 409px">
+    <form id="form1" runat="server">
+    <div style="height: 408px">
+       
+        <table class="auto-style1">
+            <tr>
+                <td style="font-family: 'Arial Black'; font-size: xx-large; font-weight: bold; color: #00FF00; text-decoration: underline; text-align: center; background-image: url('/PICS/BANER/50596f422a263f0.jpg'); background-position: center center">WELCOME TO AhaarINN</td>
+            </tr>
+        </table>
+        <table class="auto-style2">
+            <tr>
+                <td class="auto-style15" style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: justify; background-color: #FFFFCC">WELCOME&nbsp;&nbsp;
+                    <asp:Label ID="Label1" runat="server"></asp:Label>
+                </td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FFFFCC"><a href="CustomerHome.aspx" style="text-decoration: none; color: #00FF00">HOME</a></td>
+                <td class="auto-style12" style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FFFFCC"><A href="ViewOrder.aspx" style="text-decoration: none; color: #00FF00">VIEW ORDER</A></td>
+                <td class="auto-style6" style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FFFFCC"><a href="ContactUs.aspx?UT=Customer" style="text-decoration: none; color: #00FF00">CONTACT US</a></td>
+                <td class="auto-style16" style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FFFFCC"><a href="AboutAhaarINN.aspx?UT=Customer" style="text-decoration: none; color: #00FF00">ABOUT US</a></td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FFFFCC">
+                    <a href="CustomerProfile.aspx" style="text-decoration: none; color: #00FF00">MY PROFILE</a></td>
+            </tr>
+        </table>
+        <table class="auto-style2">
+            <tr>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: justify; background-color: #FFFFCC"><a href="Menu.aspx" style="text-decoration: none; color: #00FF00">MENU</a></td>
+                <td class="auto-style17">&nbsp;</td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FFFFCC"><a href="AddCart.aspx" style="text-decoration: none; color: #00FF00">CART</a></td>
+            </tr>
+        </table>
+        <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+               </div>
+        <table class="auto-style2">
+            <tr>
+                <td class="auto-style14" style="background-color: #000000; font-family: 'Arial Black'; font-size: xx-large; font-weight: bold; text-align: justify; color: #FFFFFF;"><a href="Default.aspx" style="color: #FFFFFF; text-decoration: none; background-color: #000000;">AhaarINNN  <td style="background-color: #000000; font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #FFFFFF; text-align: right;"><a href="ViewFeedBack.aspx?UT=Customer" style="text-decoration: none; color: #FFFFFF">FEEDBACK</a></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #000000; font-family: 'Arial Black'; font-size: x-small; font-weight: bold; color: #FFFFFF; text-align: center;">© 2019 AhaarINN Technologies Inc.</td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DeliveryMen.master.cs" Inherits="DeliveryMen" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 100%;
+            height: 269px;
+        }
+        .auto-style2 {
+            width: 100%;
+        }
+        .auto-style14 {
+            width: 231px;
+        }
+    </style>
+</head>
+<body style="height: 544px">
+    <form id="form1" runat="server">
+    <div style="height: 507px">
+        
+        <table class="auto-style1">
+            <tr>
+                <td style="font-family: 'Arial Black'; font-size: xx-large; font-weight: bold; color: #00FF00; text-decoration: underline; text-align: center; background-image: url('/PICS/BANER/50596f422a263f0.jpg'); background-position: center center">WELCOME TO AhaarINN</td>
+            </tr>
+        </table>
+        
+        <table class="auto-style2">
+            <tr>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: justify; background-color: #FF9999">WELCOME&nbsp;
+                    <asp:Label ID="Label1" runat="server"></asp:Label>
+                </td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FF9999"><a href="DeliveryMenHome.aspx" style="text-decoration: none; color: #00FF00">HOME</a></td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FF9999"><a href="ViewOrderDetails.aspx?UT=DeliveryMen" style="text-decoration: none; color: #00FF00">ORDER STATUS</a></td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FF9999"><a href="ContactUs.aspx?UT=DeliveryMen" style="text-decoration: none; color: #00FF00">CONTACT US</a></td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FF9999"><a href="AboutAhaarINN.aspx?UT=DeliveryMen" style="text-decoration: none; color: #00FF00">ABOUT US</a></td>
+                <td style="font-family: 'Arial Black'; font-size: large; font-weight: bold; color: #00FF00; text-align: center; background-color: #FF9999"><a href="DeliveryMenProfile.aspx" style="text-decoration: none; color: #00FF00">MY PROFILE</a></td>
+                
+            </tr>
+        </table>
+        <table class="auto-style2">
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style2">
+            <tr>
+                <td class="auto-style14" style="background-color: #000000; font-family: 'Arial Black'; font-size: xx-large; font-weight: bold; text-align: justify; color: #FFFFFF;"><a href="Default.aspx" style="color: #FFFFFF; text-decoration: none; background-color: #000000;">AhaarINN</a></td>
+            </tr>
+            <tr>
+                <td style="background-color: #000000; font-family: 'Arial Black'; font-size: x-small; font-weight: bold; color: #FFFFFF; text-align: center;">© 2019 AhaarINN Technologies Inc.</td>
+            </tr>
+        </table>
+       
+    </div>
+    </form>
+</body>
+</html>
